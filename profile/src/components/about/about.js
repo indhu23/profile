@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 class About extends React.Component {
 
     constructor(props) {
@@ -15,9 +16,9 @@ class About extends React.Component {
     componentDidUpdate(prevProps, prevState) {
         // only update chart if the data has changed
         if (prevProps.selectedView !== this.props.selectedView) {
-            const target= this.props.selectedView;
-            var element= document.getElementById(target);
-            element.scrollIntoView({ block: 'start',  behavior: 'smooth' });
+            const target = this.props.selectedView;
+            var element = document.getElementById(target);
+            element.scrollIntoView({block: 'start', behavior: 'smooth'});
         }
     }
 
@@ -36,18 +37,25 @@ class About extends React.Component {
     }
 
     renderAboutView = function () {
-        return  (
+        return (
             <section className="resume-section p-3 p-lg-5 d-flex d-column" id="about">
                 <div className="my-auto">
-                    <h1 className="mb-0">Clarence
-                        <span className="text-primary">Taylor</span>
-                    </h1>
-                    <div className="subheading mb-5">3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-                        <a href="mailto:name@email.com">name@email.com</a>
+                    <h2 className="mb-0">Indhuja <br/>
+
+                        <span className="text-primary">Balakrishnan</span>
+                    </h2>
+                    <div className="subheading mb-5">Steenbeker Weg 2249, 24106 Kiel, GERMANY - (+49) 017643323611 -
+                        <a href="mailto:bala.indu23@gmail.com">bala.indu23@gmail.com</a>
                     </div>
-                    <p className="mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for
-                        high level overviews. Iterative approaches to corporate strategy foster collaborative
-                        thinking to further the overall value proposition.</p>
+                    <p className="mb-5">
+                        <li> Developer specializing in UI and Web applications.</li>
+                        <li>
+                            Good knowledge and work experience in JavaScript, Typescript, ReactJs, Redux, Ember.js
+                            framework
+                            and HTML.
+                        </li>
+                        <li>Good knowledge in Spring framework, Node.js, Maven, Firebase and SQL.</li>
+                    </p>
                     <ul className="list-inline list-social-icons mb-0">
                         <li className="list-inline-item">
                             <a href="https://www.facebook.com/indhuja.balakrishnan">
@@ -85,59 +93,74 @@ class About extends React.Component {
             <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
                 <div className="my-auto">
                     <h2 className="mb-5">Experience</h2>
-
+                    <div className="resume-item d-flex flex-column flex-md-row mb-5">
+                        <div className="resume-item d-flex flex-column flex-md-row">
+                            <div className="resume-content mr-auto">
+                                <h3 className="mb-0">Software Associate Engineer</h3>
+                                <div className="subheading mb-3">Foxxum GmbH</div>
+                                <p>Working on development of smart tv apps and providing technical feedback
+                                    of app failures on different TV platforms .</p>
+                            </div>
+                            <div className="resume-date text-md-right">
+                                <span className="text-primary">March 2018 - Present</span>
+                            </div>
+                        </div>
+                    </div>
                     <div className="resume-item d-flex flex-column flex-md-row mb-5">
                         <div className="resume-content mr-auto">
-                            <h3 className="mb-0">Senior Web Developer</h3>
-                            <div className="subheading mb-3">Intelitec Solutions</div>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the
-                                end of the day, going forward, a new normal that has evolved from generation X is on
-                                the runway heading towards a streamlined cloud solution. User generated content in
-                                real-time will have multiple touchpoints for offshoring.</p>
+                            <h3 className="mb-0">Working student</h3>
+                            <div className="subheading mb-3">Cap3 GmbH</div>
+                            <p>
+                                <li>Worked in developing an application for creating and conducting digital
+                                    empirical tests
+                                </li>
+                                <li>Developed many individual modules using React and Redux frameworks in
+                                    Typescript
+                                </li>
+                            </p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary">March 2013 - Present</span>
+                            <span className="text-primary">July 2017 – November 2017</span>
                         </div>
                     </div>
 
                     <div className="resume-item d-flex flex-column flex-md-row mb-5">
                         <div className="resume-content mr-auto">
-                            <h3 className="mb-0">Web Developer</h3>
-                            <div className="subheading mb-3">Intelitec Solutions</div>
-                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta
-                                test. Override the digital divide with additional clickthroughs from DevOps.
-                                Nanotechnology immersion along the information highway will close the loop on
-                                focusing solely on the bottom line.</p>
+                            <h3 className="mb-0">Senior System Analyst</h3>
+                            <div className="subheading mb-3">Standard Chartered Global Business Services</div>
+                            <p>
+                                <li>Responsibilities included collaborating with business and design teams to
+                                    understand requirements and develop various modules in a responsive singlepage
+                                    ember.js web application.
+                                </li>
+                                <li> Developed front-end banking web application modules using HTML5, CSS,
+                                    JavaScript, AJAX and EmberJS framework in an Agile (Scrum) Development
+                                    environment.
+                                </li>
+                                <li>Made heavy use of Chrome Developer Tools +Firebug to ensure front-end
+                                    code and assets were optimized and of high-quality
+                                </li>
+                            </p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary">December 2011 - March 2013</span>
-                        </div>
-                    </div>
-
-                    <div className="resume-item d-flex flex-column flex-md-row mb-5">
-                        <div className="resume-content mr-auto">
-                            <h3 className="mb-0">Junior Web Designer</h3>
-                            <div className="subheading mb-3">Shout! Media Productions</div>
-                            <p>Podcasting operational change management inside of workflows to establish a
-                                framework. Taking seamless key performance indicators offline to maximise the long
-                                tail. Keeping your eye on the ball while performing a deep dive on the start-up
-                                mentality to derive convergence on cross-platform integration.</p>
-                        </div>
-                        <div className="resume-date text-md-right">
-                            <span className="text-primary">July 2010 - December 2011</span>
+                            <span className="text-primary">March 2015 – March 2017</span>
                         </div>
                     </div>
 
                     <div className="resume-item d-flex flex-column flex-md-row">
                         <div className="resume-content mr-auto">
-                            <h3 className="mb-0">Web Design Intern</h3>
-                            <div className="subheading mb-3">Shout! Media Productions</div>
-                            <p>Collaboratively administrate empowered markets via plug-and-play networks.
-                                Dynamically procrastinate B2C users after installed base benefits. Dramatically
-                                visualize customer directed convergence without revolutionary ROI.</p>
+                            <h3 className="mb-0">Analyst</h3>
+                            <div className="subheading mb-3">Standard Chartered Global Business Services</div>
+                            <p>
+                                <li>Worked in the existing system of Online Retail banking application, Standard
+                                    Chartered Breeze-Jersey and contributed for major changes in both the font-end
+                                    and back-end development.
+                                </li>
+                                <li>Worked in technologies like Spring, Maven, Hibernate etc.</li>
+                            </p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary">September 2008 - June 2010</span>
+                            <span className="text-primary">July 2014 – February 2015</span>
                         </div>
                     </div>
                 </div>
@@ -153,26 +176,38 @@ class About extends React.Component {
 
                     <div className="resume-item d-flex flex-column flex-md-row mb-5">
                         <div className="resume-content mr-auto">
-                            <h3 className="mb-0">University of Colorado Boulder</h3>
-                            <div className="subheading mb-3">Bachelor of Science</div>
-                            <div>Computer Science - Web Development Track</div>
-                            <p>GPA: 3.23</p>
+                            <h3 className="mb-0">Fachhochschule Kiel</h3>
+                            <div className="subheading mb-3">Masters in Information Engineering</div>
+                            <div>Specialization – Information Technology and Systems development</div>
+                            <p></p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary">August 2006 - May 2010</span>
+                            <span className="text-primary">Since March 2017</span>
+                        </div>
+                    </div>
+
+                    <div className="resume-item d-flex flex-column flex-md-row mb-5">
+                        <div className="resume-content mr-auto">
+                            <h3 className="mb-0">Anna University, India</h3>
+                            <div className="subheading mb-3">Bachelors in Computer Science Engineering</div>
+                            <p>Overall Aggregate: 83.1%</p>
+                        </div>
+                        <div className="resume-date text-md-right">
+                            <span className="text-primary">August 2010 – March 2014</span>
                         </div>
                     </div>
 
                     <div className="resume-item d-flex flex-column flex-md-row">
                         <div className="resume-content mr-auto">
-                            <h3 className="mb-0">James Buchanan High School</h3>
-                            <div className="subheading mb-3">Technology Magnet Program</div>
-                            <p>GPA: 3.56</p>
+                            <h3 className="mb-0">Jaigopal Garodia Matric Higher Secondary School</h3>
+                            <div className="subheading mb-3">All India Secondary School Examination (AISSE)</div>
+                            <p>Overall Aggregate: 93.5%</p>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary">August 2002 - May 2006</span>
+                            <span className="text-primary">June 2008 – March 2010</span>
                         </div>
                     </div>
+
 
                 </div>
             </section>
@@ -182,68 +217,86 @@ class About extends React.Component {
 
     renderSkillsView = function () {
         return (
-        <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-            <div className="my-auto">
-                <h2 className="mb-5">Skills</h2>
+            <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+                <div className="my-auto">
+                    <h2 className="mb-5">Skills</h2>
 
-                <div className="subheading mb-3">Programming Languages &amp; Tools</div>
-                <ul className="list-inline list-icons">
-                    <li className="list-inline-item">
-                        <i className="devicons devicons-html5"></i>
-                    </li>
-                    <li className="list-inline-item">
-                        <i className="devicons devicons-css3"></i>
-                    </li>
-                    <li className="list-inline-item">
-                        <i className="devicons devicons-javascript"></i>
-                    </li>
-                    <li className="list-inline-item">
-                        <i className="devicons devicons-jquery"></i>
-                    </li>
-                    <li className="list-inline-item">
-                        <i className="devicons devicons-sass"></i>
-                    </li>
-                    <li className="list-inline-item">
-                        <i className="devicons devicons-less"></i>
-                    </li>
-                    <li className="list-inline-item">
-                        <i className="devicons devicons-bootstrap"></i>
-                    </li>
-                    <li className="list-inline-item">
-                        <i className="devicons devicons-wordpress"></i>
-                    </li>
-                    <li className="list-inline-item">
-                        <i className="devicons devicons-grunt"></i>
-                    </li>
-                    <li className="list-inline-item">
-                        <i className="devicons devicons-gulp"></i>
-                    </li>
-                    <li className="list-inline-item">
-                        <i className="devicons devicons-npm"></i>
-                    </li>
-                </ul>
+                    <div className="subheading mb-3"> Languages &amp; Tools</div>
+                    <ul className="list-inline list-icons">
+                        <li className="list-inline-item">
+                            <i className="devicons devicons-html5"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i className="devicons devicons-css3"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i className="devicons devicons-javascript"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i className="devicons devicons-jquery"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i className="devicons devicons-less"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i className="devicons devicons-bootstrap"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i className="devicons devicons-drupal"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i className="devicons devicons-grunt"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i className="devicons devicons-npm"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i className="devicons devicons-react"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i className="devicons devicons-ember"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i className="devicons devicons-npm"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i className="devicons devicons-mysql"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i className="devicons devicons-java"></i>
+                        </li>
+                    </ul>
 
-                <div className="subheading mb-3">Workflow</div>
-                <ul className="fa-ul mb-0">
-                    <li>
-                        <i className="fa-li fa fa-check"></i>
-                        Mobile-First, Responsive Design
-                    </li>
-                    <li>
-                        <i className="fa-li fa fa-check"></i>
-                        Cross Browser Testing &amp; Debugging
-                    </li>
-                    <li>
-                        <i className="fa-li fa fa-check"></i>
-                        Cross Functional Teams
-                    </li>
-                    <li>
-                        <i className="fa-li fa fa-check"></i>
-                        Agile Development &amp; Scrum
-                    </li>
-                </ul>
-            </div>
-        </section>
+                    <ul className="fa-ul mb-0">
+                        <li>
+                            <i className="fa-li fa fa-check"></i>
+                            <span className="text-primary subheading mb-3">Languages</span>&nbsp;
+                             - German (A2 level), English (Fluent), Hindi (Basics), Tamil (Mother
+                            Tongue),Telugu (Mother tongue)
+                        </li>
+                        <li>
+                            <i className="fa-li fa fa-check"></i>
+                            <span className="text-primary subheading mb-3">Technical Languages</span>&nbsp;
+                             - JavaScript, Es6, Typescript, Java, XHTML/HTML5, CSS2/CSS3, JSON, XML, AJAX, LESS
+                        </li>
+                        <li>
+                            <i className="fa-li fa fa-check"></i>
+                            <span className="text-primary subheading mb-3"> Database </span>&nbsp;
+                           - PL/SQL (oracle), nosql(Firebase)
+                        </li>
+                        <li>
+                            <i className="fa-li fa fa-check"></i>
+                            <span className="text-primary subheading mb-3">  Framework </span>&nbsp;
+                           - Spring, Hibernate, Ember.js, React, Redux, Node.js
+                        </li>
+                        <li>
+                            <i className="fa-li fa fa-check"></i>
+                            <span className="text-primary subheading mb-3">  Tools </span>&nbsp;
+                           - Git/Subversion, Atom, JIRA, Chrome Developer Tools, Maven, Slack, Webpack
+                        </li>
+                    </ul>
+                </div>
+            </section>
         );
     };
 
@@ -252,11 +305,11 @@ class About extends React.Component {
             <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
                 <div className="my-auto">
                     <h2 className="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am
-                        an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy
-                        mountain biking, free climbing, and kayaking.</p>
-                    <p className="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and
-                        television shows, I am an aspiring chef, and I spend a large amount of my free time
+                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. During the warmer months here in Kiel, I enjoy
+                        sailing, canoeing and kayaking.</p>
+                    <p>I love travelling to different countries and exploring new cities whenever I get the opportunity.</p>
+                    <p className="mb-0">When forced indoors, I follow a number of fantasy genre movies and
+                        television shows, and I spend a large amount of my free time
                         exploring the latest technolgy advancements in the front-end web development world.</p>
                 </div>
             </section>
