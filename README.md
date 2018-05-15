@@ -3,6 +3,5 @@ Simple responsive app created using
  -bootstrap
  -jquery
 
-
 Github pages url link:
 https://indhu23.github.io/profile/
