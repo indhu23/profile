@@ -1,8 +1,8 @@
 Simple responsive app created using 
-React 
-bootstrap 
-jquery
+ -Create React App
+ -bootstrap
+ -jquery
 
 
-github pages url link:
+Github pages url link:
 https://indhu23.github.io/profile/

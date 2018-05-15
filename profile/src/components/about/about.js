@@ -98,8 +98,8 @@ class About extends React.Component {
                             <div className="resume-content mr-auto">
                                 <h3 className="mb-0">Software Associate Engineer</h3>
                                 <div className="subheading mb-3">Foxxum GmbH</div>
-                                <p>Working on development of smart tv apps and providing technical feedback
-                                    of app failures on different TV platforms .</p>
+                                <p><li>Working on development of smart tv apps and providing technical feedback
+                                    of app failures on different TV platforms. </li></p>
                             </div>
                             <div className="resume-date text-md-right">
                                 <span className="text-primary">March 2018 - Present</span>
