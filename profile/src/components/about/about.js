@@ -49,13 +49,14 @@ class About extends React.Component {
                     </div>
                     <p className="mb-5">
                         I am an experienced Full Stack Developer who can get things done!
-                            I have a demonstrated history of working<br/>in the Banking Industry, Smart TV application development
+                            I have a demonstrated history of working in the Banking Industry, Smart TV application development
                             and I am Proficient in JavaScript. <br/><br/>
-                            I am also experienced in JavaScript, Typescript, ReactJs, Redux, emberJS, nodeJS, Polymer
+                            I am also experienced in Typescript, ReactJs, Redux, emberJS, nodeJS, Polymer
                             frameworks <br/><br/>
 
                         Good knowledge in Spring framework, Node.js, Maven, Firebase and SQL.<br/>
-                        Checkout my recent experiments with SAP UI5 <a href="https://resume-i501710trial.dispatcher.hanatrial.ondemand.com"> here....</a>
+                        Checkout my recent experiments with SAP UI5 {' '}
+                        <a href="https://resume-i501710trial.dispatcher.hanatrial.ondemand.com" style={{'text-decoration': 'underline'}}>here</a>....
                     </p>
                     <ul className="list-inline list-social-icons mb-0">
                         <li className="list-inline-item">
