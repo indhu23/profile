@@ -44,17 +44,18 @@ class About extends React.Component {
 
                         <span className="text-primary">Balakrishnan</span>
                     </h2>
-                    <div className="subheading mb-5">Steenbeker Weg 2249, 24106 Kiel, GERMANY - (+49) 017643323611 -
+                    <div className="subheading mb-5">Ottheinrichweg 2, 69181 Leimen, GERMANY - (+49) 017643323611 -
                         <a href="mailto:bala.indu23@gmail.com">bala.indu23@gmail.com</a>
                     </div>
                     <p className="mb-5">
-                        <li> Developer specializing in UI and Web applications.</li>
-                        <li>
-                            Good knowledge and work experience in JavaScript, Typescript, ReactJs, Redux, Ember.js
-                            framework
-                            and HTML.
-                        </li>
-                        <li>Good knowledge in Spring framework, Node.js, Maven, Firebase and SQL.</li>
+                        I am an experienced Full Stack Developer who can get things done!
+                            I have a demonstrated history of working<br/>in the Banking Industry, Smart TV application development
+                            and I am Proficient in JavaScript. <br/><br/>
+                            I am also experienced in JavaScript, Typescript, ReactJs, Redux, emberJS, nodeJS, Polymer
+                            frameworks <br/><br/>
+
+                        Good knowledge in Spring framework, Node.js, Maven, Firebase and SQL.<br/>
+                        Checkout my recent experiments with SAP UI5 <a href="https://resume-i501710trial.dispatcher.hanatrial.ondemand.com"> here....</a>
                     </p>
                     <ul className="list-inline list-social-icons mb-0">
                         <li className="list-inline-item">
@@ -96,13 +97,46 @@ class About extends React.Component {
                     <div className="resume-item d-flex flex-column flex-md-row mb-5">
                         <div className="resume-item d-flex flex-column flex-md-row">
                             <div className="resume-content mr-auto">
+                                <h3 className="mb-0">Master Thesis Student</h3>
+                                <div className="subheading mb-3">SAP SE</div>
+                                <p><li>Implementing unique interactive components within the design
+                                    at runtime-based research application titled ‘Discovery’ </li>
+                                    <li>Design and implementation of concepts for easy user interaction
+                                        in polymer framework through behavior-based approach </li>
+                                    <li>Combining the concepts of data visualization with elastic user interactions</li></p>
+                            </div>
+                            <div className="resume-date text-md-right">
+                                <span className="text-primary">January 2019 - Present</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="resume-item d-flex flex-column flex-md-row mb-5">
+                        <div className="resume-item d-flex flex-column flex-md-row">
+                            <div className="resume-content mr-auto">
+                                <h3 className="mb-0">Intern</h3>
+                                <div className="subheading mb-3">SAP SE</div>
+                                <p><li>Contributed in fixing of existing bugs in the design at
+                                    runtime-based research application titled ‘Discovery’ </li>
+                                <li>Implemented the requirements in polymer framework and executed design ideas for excellent user experience
+                                </li></p>
+                            </div>
+                            <div className="resume-date text-md-right">
+                                <span className="text-primary">September 2018 - December 2018</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="resume-item d-flex flex-column flex-md-row mb-5">
+                        <div className="resume-item d-flex flex-column flex-md-row">
+                            <div className="resume-content mr-auto">
                                 <h3 className="mb-0">Software Associate Engineer</h3>
                                 <div className="subheading mb-3">Foxxum GmbH</div>
                                 <p><li>Working on development of smart tv apps and providing technical feedback
-                                    of app failures on different TV platforms. </li></p>
+                                    of app failures on different TV platforms. </li>
+                                <li>Developed an automation testing framework in JavaScript for testing of accepted
+                                    Smart TV features in the Foxxum platform</li></p>
                             </div>
                             <div className="resume-date text-md-right">
-                                <span className="text-primary">March 2018 - Present</span>
+                                <span className="text-primary">March 2018 - August 2018</span>
                             </div>
                         </div>
                     </div>
@@ -287,7 +321,7 @@ class About extends React.Component {
                         <li>
                             <i className="fa-li fa fa-check"></i>
                             <span className="text-primary subheading mb-3">  Framework </span>&nbsp;
-                           - Spring, Hibernate, Ember.js, React, Redux, Node.js
+                           - Spring, Hibernate, Ember.js, React, Redux, Node.js, Polymer, SAP UI5
                         </li>
                         <li>
                             <i className="fa-li fa fa-check"></i>
@@ -310,7 +344,7 @@ class About extends React.Component {
                     <p>I love travelling to different countries and exploring new cities whenever I get the opportunity.</p>
                     <p className="mb-0">When forced indoors, I follow a number of fantasy genre movies and
                         television shows, and I spend a large amount of my free time
-                        exploring the latest technolgy advancements in the front-end web development world.</p>
+                        exploring the latest technology advancements in the front-end web development world.</p>
                 </div>
             </section>
         );
