@@ -31,6 +31,9 @@ class MainSelectionView extends React.Component {
                                 <div className="nav-link js-scroll-trigger hover"  onClick={(e) => onChangeNavigation('education')}>Education</div>
                             </li>
                             <li className="nav-item">
+                                <div className="nav-link js-scroll-trigger hover"  onClick={(e) => onChangeNavigation('projects')}>Projects</div>
+                            </li>
+                            <li className="nav-item">
                                 <div className="nav-link js-scroll-trigger hover" onClick={(e) => onChangeNavigation('skills')}>Skills</div>
                             </li>
                             <li className="nav-item">

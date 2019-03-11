@@ -10,6 +10,7 @@ class About extends React.Component {
         this.renderEducationView = this.renderEducationView.bind(this);
         this.renderSkillsView = this.renderSkillsView.bind(this);
         this.renderInterestsView = this.renderInterestsView.bind(this);
+        this.renderAcademicProjectsView = this.renderAcademicProjectsView.bind(this);
     }
 
 
@@ -31,6 +32,7 @@ class About extends React.Component {
                 {this.renderEducationView()}
                 {this.renderSkillsView()}
                 {this.renderInterestsView()}
+                {this.renderAcademicProjectsView()}
 
             </div>
         );
@@ -249,7 +251,39 @@ class About extends React.Component {
 
         );
     };
+    renderAcademicProjectsView = function () {
+        return (
+            <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+                <div className="my-auto">
+                    <h2 className="mb-5">Graduate Projects</h2>
 
+                    <div className="resume-item d-flex flex-column flex-md-row mb-5">
+                        <div className="resume-content mr-auto">
+
+                            <div className="subheading mb-3">Online Ferry Booking application, Fachhochschule Kiel</div>
+                            <p> <li>Developed an Interactive Ferry booking application with login, Admin view, User view, scheduling and booking functionalities</li>
+                                <li>
+                                 Technologies used: React, Redux, webpack
+                            </li></p>
+                        </div>
+                    </div>
+
+                    <div className="resume-item d-flex flex-column flex-md-row mb-5">
+                        <div className="resume-content mr-auto">
+
+                            <div className="subheading mb-3">Online food sharing application (Essen Markt), Fachhochschule Kiel</div>
+                            <p> <li>Designed a project plan and developed a simple web-based application where locals can share surplus food with another. </li>
+                                <li>Application included live chat functionalities</li>
+                                <li>
+                                    Technologies used: HTML5, bootstrap, LESS, AJAX, jQuery(front-end), node.js, express.js, firebase(back-end), Socket IO
+                                </li></p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        );
+    };
     renderSkillsView = function () {
         return (
             <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
