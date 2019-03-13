@@ -30,10 +30,9 @@ class About extends React.Component {
                 {this.renderAboutView()}
                 {this.renderExperienceView()}
                 {this.renderEducationView()}
+                {this.renderAcademicProjectsView()}
                 {this.renderSkillsView()}
                 {this.renderInterestsView()}
-                {this.renderAcademicProjectsView()}
-
             </div>
         );
     }
@@ -225,7 +224,7 @@ class About extends React.Component {
 
                     <div className="resume-item d-flex flex-column flex-md-row mb-5">
                         <div className="resume-content mr-auto">
-                            <h3 className="mb-0">Anna University, India</h3>
+                            <h3 className="mb-0">Panimalar Engineering College, India</h3>
                             <div className="subheading mb-3">Bachelors in Computer Science Engineering</div>
                             <p>Overall Aggregate: 83.1%</p>
                         </div>
