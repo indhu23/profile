@@ -57,7 +57,7 @@ class About extends React.Component {
 
                         Good knowledge in Spring framework, Node.js, Maven, Firebase and SQL.<br/>
                         Checkout my recent experiments with SAP UI5 {' '}
-                        <a href="https://resume-i501710trial.dispatcher.hanatrial.ondemand.com" style={{'text-decoration': 'underline'}}>here</a>....
+                        <a href="https://indhu23.github.io/sapUI5-resume/" style={{'text-decoration': 'underline'}}>here</a>....
                     </p>
                     <ul className="list-inline list-social-icons mb-0">
                         <li className="list-inline-item">
