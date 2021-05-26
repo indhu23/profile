@@ -44,10 +44,7 @@ class About extends React.Component {
                     <h2 className="mb-0">Indhuja <br/>
 
                         <span className="text-primary">Balakrishnan</span>
-                    </h2>
-                    <div className="subheading mb-5">Ottheinrichweg 2, 69181 Leimen, GERMANY - (+49) 017643323611 -
-                        <a href="mailto:bala.indu23@gmail.com">bala.indu23@gmail.com</a>
-                    </div>
+                    </h2>&nbsp;
                     <p className="mb-5">
                         I am an experienced Full Stack Developer who can get things done!
                             I have a demonstrated history of working in the Banking Industry, Smart TV application development
@@ -60,14 +57,6 @@ class About extends React.Component {
                         <a href="https://indhu23.github.io/sapUI5-resume/" style={{'text-decoration': 'underline'}}>here</a>....
                     </p>
                     <ul className="list-inline list-social-icons mb-0">
-                        <li className="list-inline-item">
-                            <a href="https://www.facebook.com/indhuja.balakrishnan">
-                                    <span className="fa-stack fa-lg">
-                                        <i className="fa fa-circle fa-stack-2x"></i>
-                                        <i className="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                    </span>
-                            </a>
-                        </li>
                         <li className="list-inline-item">
                             <a href="https://www.linkedin.com/in/indhuja-balakrishnan">
                                     <span className="fa-stack fa-lg">
@@ -99,31 +88,39 @@ class About extends React.Component {
                     <div className="resume-item d-flex flex-column flex-md-row mb-5">
                         <div className="resume-item d-flex flex-column flex-md-row">
                             <div className="resume-content mr-auto">
-                                <h3 className="mb-0">Master Thesis Student</h3>
+                                <h3 className="mb-0">Information Security Compliance Specialist</h3>
                                 <div className="subheading mb-3">SAP SE</div>
-                                <p><li>Implementing unique interactive components within the design
-                                    at runtime-based research application titled ‘Discovery’ </li>
-                                    <li>Design and implementation of concepts for easy user interaction
-                                        in polymer framework through behavior-based approach </li>
-                                    <li>Combining the concepts of data visualization with elastic user interactions</li></p>
+                                <p><li>Working as part of 'Security Compliance Office' team in developing an automation tool
+                                    that supports compliance operations </li>
+                                    <li>‘Security Compliance Office' team support SAP's Line of Business (LoB) to deliver attestations and certifications like
+                                        ISO, SOC, C5 etc. according to applicable legal requirements, standards, regulations and guidelines. </li>
+                                    <li>The automation tool assists the internal and external audit events like evidence collection,
+                                        self-assessment of controls with help of workflows. It also provides automated data quality framework,
+                                        audit reports, audit related data management, permission management and workflows</li>
+                                    <li>Responsibilities include
+                                    <ul><li className="list-unstyled">Providing a design approach to support the automation of audit related features which is done manually otherwise</li>
+                                        <li className="list-unstyled">Front-end and back-end implementation of the features from the agreed design</li>
+                                        <li className="list-unstyled">Writing test cases for the implemented components</li>
+                                        <li className="list-unstyled">Providing demo and support during the audit sessions</li>
+                                    </ul></li>
+                                    <li>Major technologies and frameworks used in the tool: vue.js, element-ui, cypress, node.js, knex and objection.js</li></p>
                             </div>
                             <div className="resume-date text-md-right">
-                                <span className="text-primary">January 2019 - Present</span>
+                                <span className="text-primary">June 2019 - Present</span>
                             </div>
                         </div>
                     </div>
                     <div className="resume-item d-flex flex-column flex-md-row mb-5">
                         <div className="resume-item d-flex flex-column flex-md-row">
                             <div className="resume-content mr-auto">
-                                <h3 className="mb-0">Intern</h3>
+                                <h3 className="mb-0">Internship & Master Thesis Student</h3>
                                 <div className="subheading mb-3">SAP SE</div>
-                                <p><li>Contributed in fixing of existing bugs in the design at
-                                    runtime-based research application titled ‘Discovery’ </li>
-                                <li>Implemented the requirements in polymer framework and executed design ideas for excellent user experience
-                                </li></p>
+                                <p><li>Implemented a set of unique interactive components within the design at runtime-based research application titled ‘Discovery’ </li>
+                                    <li>Design and implementation of concepts for easy user interaction in polymer framework through behavior-based approach </li>
+                                    <li>Combining the concepts of data visualization with elastic user interactions</li></p>
                             </div>
                             <div className="resume-date text-md-right">
-                                <span className="text-primary">September 2018 - December 2018</span>
+                                <span className="text-primary">September 2018 - May 2019</span>
                             </div>
                         </div>
                     </div>
@@ -132,10 +129,11 @@ class About extends React.Component {
                             <div className="resume-content mr-auto">
                                 <h3 className="mb-0">Software Associate Engineer</h3>
                                 <div className="subheading mb-3">Foxxum GmbH</div>
-                                <p><li>Working on development of smart tv apps and providing technical feedback
-                                    of app failures on different TV platforms. </li>
-                                <li>Developed an automation testing framework in JavaScript for testing of accepted
-                                    Smart TV features in the Foxxum platform</li></p>
+                                <p><li>Worked on development of smart TV apps and provided technical feedback of app failures
+                                    on different TV platforms. This feedback involved going through different applications written in
+                                    different frameworks, identifying the bugs, and providing solution for vendors to fix them </li>
+                                <li>Developed an automation testing framework in JavaScript for testing of accepted Smart TV features on
+                                    the Foxxum platform</li></p>
                             </div>
                             <div className="resume-date text-md-right">
                                 <span className="text-primary">March 2018 - August 2018</span>
@@ -150,7 +148,7 @@ class About extends React.Component {
                                 <li>Worked in developing an application for creating and conducting digital
                                     empirical tests
                                 </li>
-                                <li>Developed many individual modules using React and Redux frameworks in
+                                <li>Developed modules using React and Redux frameworks in
                                     Typescript
                                 </li>
                             </p>
@@ -165,16 +163,13 @@ class About extends React.Component {
                             <h3 className="mb-0">Senior System Analyst</h3>
                             <div className="subheading mb-3">Standard Chartered Global Business Services</div>
                             <p>
-                                <li>Responsibilities included collaborating with business and design teams to
-                                    understand requirements and develop various modules in a responsive singlepage
-                                    ember.js web application.
+                                <li>Collaborated with business and design teams to understand requirements
+                                    and develop various modules in a responsive single page ember.js web application
                                 </li>
-                                <li> Developed front-end banking web application modules using HTML5, CSS,
-                                    JavaScript, AJAX and EmberJS framework in an Agile (Scrum) Development
-                                    environment.
+                                <li>Developed front-end banking web application modules using HTML5, CSS, JavaScript,
+                                    AJAX and Ember.js framework in an Agile (Scrum) Development environment
                                 </li>
-                                <li>Made heavy use of Chrome Developer Tools +Firebug to ensure front-end
-                                    code and assets were optimized and of high-quality
+                                <li>Used Chrome Developer Tools and Firebug to ensure front-end code and assets were optimized and of high-quality
                                 </li>
                             </p>
                         </div>
@@ -190,7 +185,7 @@ class About extends React.Component {
                             <p>
                                 <li>Worked in the existing system of Online Retail banking application, Standard
                                     Chartered Breeze-Jersey and contributed for major changes in both the font-end
-                                    and back-end development.
+                                    and back-end development
                                 </li>
                                 <li>Worked in technologies like Spring, Maven, Hibernate etc.</li>
                             </p>
@@ -325,9 +320,6 @@ class About extends React.Component {
                             <i className="devicons devicons-ember"></i>
                         </li>
                         <li className="list-inline-item">
-                            <i className="devicons devicons-npm"></i>
-                        </li>
-                        <li className="list-inline-item">
                             <i className="devicons devicons-mysql"></i>
                         </li>
                         <li className="list-inline-item">
@@ -340,7 +332,7 @@ class About extends React.Component {
                             <i className="fa-li fa fa-check"></i>
                             <span className="text-primary subheading mb-3">Languages</span>&nbsp;
                              - German (A2 level), English (Fluent), Hindi (Basics), Tamil (Mother
-                            Tongue),Telugu (Mother tongue)
+                            Tongue),Telugu (Basics)
                         </li>
                         <li>
                             <i className="fa-li fa fa-check"></i>
@@ -350,12 +342,12 @@ class About extends React.Component {
                         <li>
                             <i className="fa-li fa fa-check"></i>
                             <span className="text-primary subheading mb-3"> Database </span>&nbsp;
-                           - PL/SQL (oracle), nosql(Firebase)
+                           - PL/SQL (oracle), nosql(Firebase)& PostgreSQL
                         </li>
                         <li>
                             <i className="fa-li fa fa-check"></i>
                             <span className="text-primary subheading mb-3">  Framework </span>&nbsp;
-                           - Spring, Hibernate, Ember.js, React, Redux, Node.js, Polymer, SAP UI5
+                           - Spring, Hibernate, Ember.js, React, Redux, Node.js, SAP UI5, Vue.js, Objection.js & Knex.js
                         </li>
                         <li>
                             <i className="fa-li fa fa-check"></i>
