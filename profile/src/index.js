@@ -1,7 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('page-top'));
+const container = document.getElementById('page-top');
+const root = createRoot(container);
+
+root.render(<App />);
 registerServiceWorker();

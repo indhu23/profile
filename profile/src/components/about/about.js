@@ -50,11 +50,12 @@ class About extends React.Component {
                             I have a demonstrated history of working in the Banking Industry, Smart TV application development
                             and I am Proficient in JavaScript. <br/><br/>
                             I am also experienced in Typescript, ReactJs, Redux, emberJS, nodeJS, Polymer
-                            frameworks <br/><br/>
+                            frameworks. <br/><br/>
 
                         Good knowledge in Spring framework, Node.js, Maven, Firebase and SQL.<br/>
+                        <br/>
                         Checkout my recent experiments with SAP UI5 {' '}
-                        <a href="https://indhu23.github.io/sapUI5-resume/" style={{'text-decoration': 'underline'}}>here</a>
+                        <a href="https://indhu23.github.io/sapUI5-resume/" style={{textDecoration: 'underline'}}>here</a>
                     </p>
                     <ul className="list-inline list-social-icons mb-0">
                         <li className="list-inline-item">
@@ -86,42 +87,45 @@ class About extends React.Component {
                 <div className="my-auto">
                     <h2 className="mb-5">Experience</h2>
                     <div className="resume-item d-flex flex-column flex-md-row mb-5">
-                        <div className="resume-item d-flex flex-column flex-md-row">
-                            <div className="resume-content mr-auto">
-                                <h3 className="mb-0">Information Security Compliance Specialist</h3>
-                                <div className="subheading mb-3">SAP SE</div>
-                                <p><li>Working as part of 'Security Compliance Office' team in developing an automation tool
-                                    that supports compliance operations </li>
-                                    <li>‘Security Compliance Office' team support SAP's Line of Business (LoB) to deliver attestations and certifications like
-                                        ISO, SOC, C5 etc. according to applicable legal requirements, standards, regulations and guidelines. </li>
-                                    <li>The automation tool assists the internal and external audit events like evidence collection,
-                                        self-assessment of controls with help of workflows. It also provides automated data quality framework,
-                                        audit reports, audit related data management, permission management and workflows</li>
-                                    <li>Responsibilities include
-                                    <ul><li className="list-unstyled">Providing a design approach to support the automation of audit related features which is done manually otherwise</li>
-                                        <li className="list-unstyled">Front-end and back-end implementation of the features from the agreed design</li>
-                                        <li className="list-unstyled">Writing test cases for the implemented components</li>
-                                        <li className="list-unstyled">Providing demo and support during the audit sessions</li>
-                                    </ul></li>
-                                    <li>Major technologies and frameworks used in the tool: vue.js, element-ui, cypress, node.js, knex and objection.js</li></p>
-                            </div>
-                            <div className="resume-date text-md-right">
-                                <span className="text-primary">June 2019 - Present</span>
-                            </div>
+                        <div className="resume-content mr-auto">
+                            <h3 className="mb-0">Senior Full Stack Developer</h3>
+                            <div className="subheading mb-3">SAP SE</div>
+                            <p><strong>Project:</strong> Compliance Cockpit, a platform that automates security compliance workflows at SAP to reduce risk and improve audit efficiency.</p>
+                            <p><li>Led architectural design and implementation of advanced compliance workflow capabilities, driving key technical decisions across the stack.</li>
+                                <li>Played a pivotal role in the successful SDOL adoption project, ensuring the platform passed security and data protection validations and strengthened overall compliance posture.</li>
+                                <li>Designed and delivered the Evidence Request Management system, significantly improving audit evidence collection efficiency and workflow transparency.</li>
+                                <li>Acted as a technical liaison between engineering and audit stakeholders, translating complex audit and regulatory requirements into scalable product solutions.</li>
+                                <li>Mentored team members and established best practices for code quality, testing, and development standards.</li>
+                                <li>Implemented robust unit and end-to-end test strategies, including the use of customized GitHub Copilot agents.</li>
+                                <li>Participated in code reviews, debugging, and performance improvements across the application.</li></p>
+                        </div>
+                        <div className="resume-date text-md-right">
+                            <span className="text-primary">March 2025 - Present</span>
                         </div>
                     </div>
                     <div className="resume-item d-flex flex-column flex-md-row mb-5">
-                        <div className="resume-item d-flex flex-column flex-md-row">
-                            <div className="resume-content mr-auto">
-                                <h3 className="mb-0">Internship & Master Thesis Student</h3>
-                                <div className="subheading mb-3">SAP SE</div>
-                                <p><li>Implemented a set of unique interactive components within the design at runtime-based research application titled ‘Discovery’ </li>
-                                    <li>Design and implementation of concepts for easy user interaction in polymer framework through behavior-based approach </li>
-                                    <li>Combining the concepts of data visualization with elastic user interactions</li></p>
-                            </div>
-                            <div className="resume-date text-md-right">
-                                <span className="text-primary">September 2018 - May 2019</span>
-                            </div>
+                        <div className="resume-content mr-auto">
+                            <h3 className="mb-0">Full Stack Developer</h3>
+                            <div className="subheading mb-3">SAP SE</div>
+                            <p><li>Contributed to the development of Compliance Cockpit, focusing on core feature implementation and system enhancements.</li>
+                                <li>Built and maintained frontend components and backend APIs for compliance workflows using Vue.js and Node.js.</li>
+                                <li>Collaborated with senior engineers to translate requirements into technical tasks and deliverables.</li>
+                                <li>Recognized with multiple spot awards for outstanding contributions and delivery excellence.</li></p>
+                        </div>
+                        <div className="resume-date text-md-right">
+                            <span className="text-primary">June 2019 - March 2025</span>
+                        </div>
+                    </div>
+                    <div className="resume-item d-flex flex-column flex-md-row mb-5">
+                        <div className="resume-content mr-auto">
+                            <h3 className="mb-0">Internship & Master Thesis Student</h3>
+                            <div className="subheading mb-3">SAP SE</div>
+                            <p><li>Implemented a set of unique interactive components within the design at runtime-based research application titled 'Discovery'.</li>
+                                <li>Design and implementation of concepts for easy user interaction in polymer framework through behavior-based approach.</li>
+                                <li>Combining the concepts of data visualization with elastic user interactions.</li></p>
+                        </div>
+                        <div className="resume-date text-md-right">
+                            <span className="text-primary">September 2018 - May 2019</span>
                         </div>
                     </div>
                     <div className="resume-item d-flex flex-column flex-md-row mb-5">
@@ -131,9 +135,9 @@ class About extends React.Component {
                                 <div className="subheading mb-3">Foxxum GmbH</div>
                                 <p><li>Worked on development of smart TV apps and provided technical feedback of app failures
                                     on different TV platforms. This feedback involved going through different applications written in
-                                    different frameworks, identifying the bugs, and providing solution for vendors to fix them </li>
+                                    different frameworks, identifying the bugs, and providing solution for vendors to fix them.</li>
                                 <li>Developed an automation testing framework in JavaScript for testing of accepted Smart TV features on
-                                    the Foxxum platform</li></p>
+                                    the Foxxum platform.</li></p>
                             </div>
                             <div className="resume-date text-md-right">
                                 <span className="text-primary">March 2018 - August 2018</span>
@@ -146,10 +150,10 @@ class About extends React.Component {
                             <div className="subheading mb-3">Cap3 GmbH</div>
                             <p>
                                 <li>Worked in developing an application for creating and conducting digital
-                                    empirical tests
+                                    empirical tests.
                                 </li>
                                 <li>Developed modules using React and Redux frameworks in
-                                    Typescript
+                                    Typescript.
                                 </li>
                             </p>
                         </div>
@@ -164,10 +168,10 @@ class About extends React.Component {
                             <div className="subheading mb-3">Standard Chartered Global Business Services</div>
                             <p>
                                 <li>Collaborated with business and design teams to understand requirements
-                                    and develop various modules in a responsive single page ember.js web application
+                                    and develop various modules in a responsive single page ember.js web application.
                                 </li>
                                 <li>Developed front-end banking web application modules using HTML5, CSS, JavaScript,
-                                    AJAX and Ember.js framework in an Agile (Scrum) Development environment
+                                    AJAX and Ember.js framework in an Agile (Scrum) Development environment.
                                 </li>
                                 <li>Used Chrome Developer Tools and Firebug to ensure front-end code and assets were optimized and of high-quality
                                 </li>
@@ -185,7 +189,7 @@ class About extends React.Component {
                             <p>
                                 <li>Worked in the existing system of Online Retail banking application, Standard
                                     Chartered Breeze-Jersey and contributed for major changes in both the font-end
-                                    and back-end development
+                                    and back-end development.
                                 </li>
                                 <li>Worked in technologies like Spring, Maven, Hibernate etc.</li>
                             </p>
@@ -255,9 +259,9 @@ class About extends React.Component {
                         <div className="resume-content mr-auto">
 
                             <div className="subheading mb-3">Online Ferry Booking application, Fachhochschule Kiel</div>
-                            <p> <li>Developed an Interactive Ferry booking application with login, Admin view, User view, scheduling and booking functionalities</li>
+                               <p> <li>Developed an Interactive Ferry booking application with login, Admin view, User view, scheduling and booking functionalities.</li>
                                 <li>
-                                 Technologies used: React, Redux, webpack
+                                   Technologies used: React, Redux, webpack.
                             </li></p>
                         </div>
                     </div>
@@ -267,9 +271,9 @@ class About extends React.Component {
 
                             <div className="subheading mb-3">Online food sharing application (Essen Markt), Fachhochschule Kiel</div>
                             <p> <li>Designed a project plan and developed a simple web-based application where locals can share surplus food with another. </li>
-                                <li>Application included live chat functionalities</li>
+                                <li>Application included live chat functionalities.</li>
                                 <li>
-                                    Technologies used: HTML5, bootstrap, LESS, AJAX, jQuery(front-end), node.js, express.js, firebase(back-end), Socket IO
+                                    Technologies used: HTML5, bootstrap, LESS, AJAX, jQuery(front-end), node.js, express.js, firebase(back-end), Socket IO.
                                 </li></p>
                         </div>
                     </div>
