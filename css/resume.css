@@ -145,6 +145,20 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+.resume-list {
+  margin-bottom: 0;
+  padding-left: 1.25rem;
+}
+
+.resume-list li {
+  margin-bottom: 0.35rem;
+}
+
+.resume-list li:last-child {
+  margin-bottom: 0;
+}
+
 section.list-type {
     list-style-type: square;
 }
